@@ -1,0 +1,122 @@
+html,
+body,
+main {
+    height: 100%;
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main .ruleta-contenedor {
+    position: relative;
+}
+
+main .ruleta-contenedor #selector {
+    position: absolute;
+    left:50%;
+    z-index: 1;
+    top: -25px;
+    transform: translate(-50%);
+    display: inline-block;
+    width: 0%;
+    height: 0%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #000000;
+}
+
+
+
+#ruleta {
+    background-color: "none";
+    width: 400px;
+    height: 400px;
+    position: relative;
+    font-size: 14px;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transform: rotate(0deg);
+}
+
+#ruleta .ruleta-section{
+position: absolute;
+overflow: hidden;
+top: 0;
+right: 0;
+width: 50%;
+height:50%;
+transform-origin: 0% 100%;
+
+}
+
+#ruleta .ruleta-section .ruleta-section-contenedor{
+background-color: brown;
+width: 200%;
+height: 200%;
+left: -100%;
+position: absolute;
+text-align: center;
+padding-top: 20px;
+transform: skewY(60deg) rotate(15deg) ;
+}
+
+#ruleta .ruleta-section .ruleta-section-contenedor p {
+    margin-top: 30px;
+    transform: rotate(90deg);
+}
+
+.button-contenedor {
+    margin-top: 90px;
+}
+
+.button-contenedor button#reset {
+    display: none;
+
+}
+
+
+
+#ruleta .ruleta-section:first-child {
+    transform: rotate(0deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(2) {
+    transform: rotate(36deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(3) {
+    transform: rotate(72deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(4) {
+    transform: rotate(108deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(5) {
+    transform: rotate(144deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(6) {
+    transform: rotate(180deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(7) {
+    transform: rotate(216deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(8) {
+    transform: rotate(252deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(9) {
+    transform: rotate(288deg) skewY(-53deg);
+}
+
+#ruleta .ruleta-section:nth-child(10) {
+    transform: rotate(324deg) skewY(-53deg);
+}
