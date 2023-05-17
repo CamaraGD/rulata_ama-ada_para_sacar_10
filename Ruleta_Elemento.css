@@ -1,0 +1,39 @@
+#ruleta .ruleta-section:first-child .ruleta-section-contenedor{
+background-color: aqua;
+}
+
+#ruleta .ruleta-section:nth-child(2) .ruleta-section-contenedor{
+    background-color: rgb(9, 255, 91);
+}
+
+#ruleta .ruleta-section:nth-child(3) .ruleta-section-contenedor{
+    background-color: rgb(60, 255, 0);
+}
+
+#ruleta .ruleta-section:nth-child(4) .ruleta-section-contenedor{
+    background-color: rgb(234, 255, 0);
+}
+
+#ruleta .ruleta-section:nth-child(5) .ruleta-section-contenedor{
+    background-color: rgb(255, 217, 0);
+}
+
+#ruleta .ruleta-section:nth-child(6) .ruleta-section-contenedor{
+    background-color: rgb(255, 128, 0);
+}
+
+#ruleta .ruleta-section:nth-child(7) .ruleta-section-contenedor{
+    background-color: rgb(255, 21, 0); 
+}
+
+#ruleta .ruleta-section:nth-child(8) .ruleta-section-contenedor{
+    background-color: rgb(255, 0, 149);
+}
+
+#ruleta .ruleta-section:nth-child(9) .ruleta-section-contenedor{
+    background-color: rgb(157, 0, 255);
+}
+
+#ruleta .ruleta-section:nth-child(10) .ruleta-section-contenedor{
+    background-color: rgb(25, 0, 255);
+}
